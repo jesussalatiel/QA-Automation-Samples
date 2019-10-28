@@ -1,3 +1,4 @@
+# QA-Automation Samples
 ## Sources
 - https://github.com/in28minutes/automation-testing-with-java-and-selenium/blob/master/testng-basics/pom.xml
 - https://github.com/bonigarcia/webdrivermanager-examples
@@ -24,6 +25,6 @@
 ## Sample-01 (Login Facebook)
 - Setup ChromeDriver
 - Disable automation messages 
--- Maximized Display
--- Disable PopUp, Notification, Save Credentials
+- Maximized Display
+- Disable PopUp, Notification, Save Credentials
 - Delete Cookies
