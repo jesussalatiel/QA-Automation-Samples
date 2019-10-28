@@ -6,6 +6,8 @@
       <class name="com.sample.Sample01.Sample01ApplicationTests">
         <methods>
           <include name="tearDown"/>
+          <include name="facebookTitle"/>
+          <include name="scrollFacebook"/>
           <include name="setup"/>
           <include name="facebookLogin"/>
         </methods>
