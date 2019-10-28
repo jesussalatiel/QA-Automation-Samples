@@ -28,9 +28,7 @@ public class Sample01Application {
 		Thread.sleep(2000);
 		driver2.quit();
 		
-		/*
-		 * FirefoxDriverManager.getInstance().setup(); driver = new FirefoxDriver();
-		 */
+
 	}
 
 }
