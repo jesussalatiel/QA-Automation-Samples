@@ -20,3 +20,10 @@
 - If you encounter a Security warning, just click "Install Anyway".
 - Wait for the installation to finish. When Eclipse prompts you for a restart, click "Restart now."
 -  After the restart, verify if TestNG was indeed successfully installed. Click Window > Show View > Other.
+
+## Sample-01 (Login Facebook)
+- Setup ChromeDriver
+- Disable automation messages 
+-- Maximized Display
+-- Disable PopUp, Notification, Save Credentials
+- Delete Cookies
