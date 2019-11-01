@@ -1,3 +1,4 @@
-#Drivers
-Sample-01/chromedriver
-Sample-01/geckodriver
+#Trash
+Sample-01/test-output
+Sample-01/target
+Sample-01/bin

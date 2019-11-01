@@ -1,7 +1,9 @@
 # QA-Automation Samples
 ## Sources
-- https://github.com/in28minutes/automation-testing-with-java-and-selenium/blob/master/testng-basics/pom.xml
-- https://github.com/bonigarcia/webdrivermanager-examples
+- [Automation Testing withJava and Selenium](https://github.com/in28minutes/automation-testing-with-java-and-selenium/blob/master/testng-basics/pom.xml)
+- [WebDriver](https://github.com/bonigarcia/webdrivermanager-examples)
+- [XPath](https://www.guru99.com/xpath-selenium.html)
+- [XPath](https://howtodoinjava.com/xml/java-xpath-tutorial-example/)
 
 ## Issues 
 ### TestNG

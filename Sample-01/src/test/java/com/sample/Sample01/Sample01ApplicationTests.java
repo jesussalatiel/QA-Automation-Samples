@@ -27,9 +27,10 @@ class Sample01ApplicationTests {
 	private static String baseURL = "https://www.facebook.com/";
 
 	/* TestData */
-	private static String userFacebook = "test@hotma.com";
-	private static String passwordFacebook = "passwordtest";
+	private static String userFacebook = "test@test.com";
+	private static String passwordFacebook = "password";
 	private static String expectedTitle = "Facebook - Log In or Sign Up";
+	private static String dataSearch = "Xonacatlán Red Vecinal";
 
 	@BeforeClass(alwaysRun = true)
 	public void setup() throws Exception {
@@ -80,13 +81,39 @@ class Sample01ApplicationTests {
 	}
 
 	@Test(priority = 3)
+	public void searchElement()throws Exception {
+		String searchXPath = "//input[@data-testid='search_input']";
+		String nameXPath = "//a[@href='/groups/XonacatlanRedVecinal/']";
+		
+
+		
+		driver.findElement(By.xpath(searchXPath)).click();
+		driver.findElement(By.xpath(searchXPath)).sendKeys(dataSearch);
+		driver.findElement(By.xpath(searchXPath)).sendKeys(Keys.ENTER);
+
+		driver.findElement(By.xpath(nameXPath)).click();
+		driver.findElement(By.xpath(nameXPath)).sendKeys(Keys.ENTER);
+
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@aria-autocomplete=\'list\']")).click();
+		//driver.findElement(By.xpath("//div[@data-testid=\"status-attachment-mentions-input\"]")).click();
+		//driver.findElement(By.xpath("//div[@data-testid=\"status-attachment-mentions-input\"]")).sendKeys("Hola");
+		
+		//driver.findElement(By.xpath("//span[@data-text=\"true\"]")).click();
+		//driver.findElement(By.xpath("//span[@data-text=\"true\"]")).sendKeys("HOla");
+		
+		Thread.sleep(2000);
+	}
+
+
+	/*@Test(priority = 14)
 	public void scrollFacebook() throws Exception {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		for (int i = 0; i < 5; i++) {
 			js.executeScript("window.scrollBy(0,200)");
 			Thread.sleep(1000);
 		}
-	}
+	}*/
 
 	@AfterClass(alwaysRun = true)
 	public void tearDown() {

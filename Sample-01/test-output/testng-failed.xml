@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.sample.Sample01.Sample01ApplicationTests">
         <methods>
+          <include name="searchElement"/>
           <include name="tearDown"/>
-          <include name="facebookTitle"/>
-          <include name="scrollFacebook"/>
           <include name="setup"/>
-          <include name="facebookLogin"/>
         </methods>
       </class> <!-- com.sample.Sample01.Sample01ApplicationTests -->
     </classes>

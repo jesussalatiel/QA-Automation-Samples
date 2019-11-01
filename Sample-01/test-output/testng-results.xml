@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25370" started-at="2019-10-28T06:04:59Z" finished-at="2019-10-28T06:05:24Z">
+  <suite name="Default suite" duration-ms="60914" started-at="2019-10-29T05:41:41Z" finished-at="2019-10-29T05:42:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25370" started-at="2019-10-28T06:04:59Z" finished-at="2019-10-28T06:05:24Z">
+    <test name="Default test" duration-ms="60914" started-at="2019-10-29T05:41:41Z" finished-at="2019-10-29T05:42:41Z">
       <class name="com.sample.Sample01.Sample01ApplicationTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.sample.Sample01.Sample01ApplicationTests@4667ae56]" name="setup" is-config="true" duration-ms="8628" started-at="2019-10-28T06:04:59Z" finished-at="2019-10-28T06:05:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sample.Sample01.Sample01ApplicationTests@68c4039c]" name="setup" is-config="true" duration-ms="14816" started-at="2019-10-28T23:41:41Z" finished-at="2019-10-28T23:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="facebookTitle()[pri:1, instance:com.sample.Sample01.Sample01ApplicationTests@4667ae56]" name="facebookTitle" duration-ms="39" started-at="2019-10-28T06:05:07Z" finished-at="2019-10-28T06:05:07Z">
+        <test-method status="PASS" signature="facebookTitle()[pri:1, instance:com.sample.Sample01.Sample01ApplicationTests@68c4039c]" name="facebookTitle" duration-ms="24" started-at="2019-10-28T23:41:55Z" finished-at="2019-10-28T23:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookTitle -->
-        <test-method status="PASS" signature="facebookLogin()[pri:2, instance:com.sample.Sample01.Sample01ApplicationTests@4667ae56]" name="facebookLogin" duration-ms="1325" started-at="2019-10-28T06:05:07Z" finished-at="2019-10-28T06:05:09Z">
+        <test-method status="PASS" signature="facebookLogin()[pri:2, instance:com.sample.Sample01.Sample01ApplicationTests@68c4039c]" name="facebookLogin" duration-ms="8127" started-at="2019-10-28T23:41:55Z" finished-at="2019-10-28T23:42:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLogin -->
-        <test-method status="PASS" signature="scrollFacebook()[pri:3, instance:com.sample.Sample01.Sample01ApplicationTests@4667ae56]" name="scrollFacebook" duration-ms="15205" started-at="2019-10-28T06:05:09Z" finished-at="2019-10-28T06:05:24Z">
+        <test-method status="FAIL" signature="searchElement()[pri:3, instance:com.sample.Sample01.Sample01ApplicationTests@68c4039c]" name="searchElement" duration-ms="37075" started-at="2019-10-28T23:42:03Z" finished-at="2019-10-28T23:42:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-autocomplete='list']"}  (Session info: chrome=78.0.3904.70)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-P3BNC4D', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JESSSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: dee9250b80a6317d7e50d1d69cefc6a8*** Element info: {Using=xpath, value=//div[@aria-autocomplete='list']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-autocomplete='list']"}  (Session info: chrome=78.0.3904.70)For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-P3BNC4D', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\JESSSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: dee9250b80a6317d7e50d1d69cefc6a8*** Element info: {Using=xpath, value=//div[@aria-autocomplete='list']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at com.sample.Sample01.Sample01ApplicationTests.searchElement(Sample01ApplicationTests.java:98)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollFacebook -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.Sample01.Sample01ApplicationTests@4667ae56]" name="tearDown" is-config="true" duration-ms="143" started-at="2019-10-28T06:05:24Z" finished-at="2019-10-28T06:05:24Z">
+        </test-method> <!-- searchElement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.Sample01.Sample01ApplicationTests@68c4039c]" name="tearDown" is-config="true" duration-ms="841" started-at="2019-10-28T23:42:41Z" finished-at="2019-10-28T23:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
