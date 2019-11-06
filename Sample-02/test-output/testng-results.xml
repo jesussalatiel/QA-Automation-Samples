@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22852" started-at="2019-09-20T20:51:52Z" finished-at="2019-09-20T20:52:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22852" started-at="2019-09-20T20:51:52Z" finished-at="2019-09-20T20:52:15Z">
+      <class name="test.FrameWorkApplication">
+        <test-method status="PASS" signature="KeywordDFTest()[pri:0, instance:test.FrameWorkApplication@13deb50e]" name="KeywordDFTest" duration-ms="22830" started-at="2019-09-20T20:51:52Z" finished-at="2019-09-20T20:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KeywordDFTest -->
+      </class> <!-- test.FrameWorkApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
