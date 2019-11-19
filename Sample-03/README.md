@@ -1,4 +1,4 @@
-#TestNG Annotations
+# TestNG Annotations
 - **@BeforeSuite**: This annotation will be run BEFORE of execute all suite cases 
 - **@AfterSuite**: This annotation will be run AFTER of execute all suites cases 
 - **@BeforeTest**: This annotation will be run BEFORE of execute any test method that belong to the clases inside test tag
@@ -7,7 +7,7 @@
 - **@AfterClass**:  This method will be run AFTER of had executed all tests methods in the current class 
 - **@BeforeMethod**: This method will be run BEFORE of each test method
 - **@AfterMethod**: This method will be run AFTER of each test method
-###References
+### References
 - [TestNG Annotations](https://www.javarticles.com/2015/04/testng-annotations.html)
 - [MvnRepository TestNG](https://mvnrepository.com/artifact/org.testng/testng)
 - [MvnRepository Selenium](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java)
