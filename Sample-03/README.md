@@ -7,6 +7,22 @@
 - **@AfterClass**:  This method will be run AFTER of had executed all tests methods in the current class 
 - **@BeforeMethod**: This method will be run BEFORE of each test method
 - **@AfterMethod**: This method will be run AFTER of each test method
+
+### Notes
+- One suite can have one o more tests
+- On test can have one or more classes
+- One class can have one or more methods
+
+### Parameters
+- @AfterMethod(groups="feature1")
+- @AfterTest(alwaysRun=true)
+- @Parameters({"param1", "param2"})
+- @Factory
+- @Listeners({SuiteListener.class})
+
+## Tasks
+- Use dataProvider
+- Use Cross Browser Testing
 ### References
 - [TestNG Annotations](https://www.javarticles.com/2015/04/testng-annotations.html)
 - [MvnRepository TestNG](https://mvnrepository.com/artifact/org.testng/testng)

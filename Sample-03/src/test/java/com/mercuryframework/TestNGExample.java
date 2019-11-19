@@ -1,8 +1,11 @@
 package com.mercuryframework;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.testng.Assert.assertTrue;
 
@@ -10,26 +13,33 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
 
 public class TestNGExample {
 
 	private WebDriver driver = null;
-	private String URL = "http://automationpractice.com/index.php";
 	private WebElement searchBox = null;
 	private By searchBoxSelector = By.id("search_query_top");
 	private WebDriverWait wait = null;
 	private By resultsLocator = By.cssSelector("span.heading-counter");
 
 	@BeforeClass
-	public void beforeClass() {
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+	@Parameters({ "URL", "BrowserType" })
+	public void beforeClass(String URL, String BrowserType) {
+		if(BrowserType.equalsIgnoreCase("Chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}else if(BrowserType.equals("Firefox")){
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		
 		driver.manage().window().maximize();
 		driver.get(URL);
 
+		System.out.println("Opening: "+BrowserType);
 	}
 
 	@Test
