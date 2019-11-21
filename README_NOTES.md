@@ -113,14 +113,14 @@ TU02| Check Customer Login with invalid Data | 1. Go to site (www.example.com/si
 #####
 **Best Practice for writing good Test Case**
 #####
-1- **Test Cases need to be simple:** Create test cases that are as simple as possible They must be clear and concise as the author of the test case may not execute them
-2. **Create Test Case with End User Mind:** A tester must create test cases keeping in mind the end user perspective this is must be be easy to use and operate
-3. **Avoid Test Case Repetition:** Do not repeat test cases. If a test case is needed for executing some other test case, call the test case by its test case id in the pre-condition column
-4. **Don't Assume:** Don't assume functionality and features of your software application while preparing test case
-5. **Ensure 100% Coverage:** Make sure you write test cases to check all software requirements mentioned in the specification document
-6. **Test Cases must be identifiable:** Name the test case id such that they are identified easily while tracking defects or identifying a software requirement at a later stage
-7. **Repeatable and self-standing:** The test case should generate the same results every time no matter who test its
-8. **Peer Review:** After creating test cases, get them reviewed by your colleagues. Your peers can uncover defects in your test case design
+- **Test Cases need to be simple:** Create test cases that are as simple as possible They must be clear and concise as the author of the test case may not execute them
+- **Create Test Case with End User Mind:** A tester must create test cases keeping in mind the end user perspective this is must be be easy to use and operate
+- **Avoid Test Case Repetition:** Do not repeat test cases. If a test case is needed for executing some other test case, call the test case by its test case id in the pre-condition column
+- **Don't Assume:** Don't assume functionality and features of your software application while preparing test case
+- **Ensure 100% Coverage:** Make sure you write test cases to check all software requirements mentioned in the specification document
+- **Test Cases must be identifiable:** Name the test case id such that they are identified easily while tracking defects or identifying a software requirement at a later stage
+- **Repeatable and self-standing:** The test case should generate the same results every time no matter who test its
+- **Peer Review:** After creating test cases, get them reviewed by your colleagues. Your peers can uncover defects in your test case design
 ##### Other Software
 Code Spell Checker
 
