@@ -1,14 +1,14 @@
 **Strum (5-9 persons)**
 Scrum is an agile project management methodology has three roles:
-- 1. Product owner
-- 2. Scrum master
-- 3. Team 
+- Product owner
+- Scrum master
+- Team 
 
 Each them has different responsibilities for example:
 
-- 1. Product owner get the requirements customer
-- 2. Scrum master create the tasks to do 
-- 3. Team is conformed by Developers and Testers.
+- Product owner get the requirements customer
+- Scrum master create the tasks to do 
+- Team is conformed by Developers and Testers.
 
 Scrum has four ceremonies:
 1. Sprint planning 
@@ -121,8 +121,12 @@ TU02| Check Customer Login with invalid Data | 1. Go to site (www.example.com/si
 - **Test Cases must be identifiable:** Name the test case id such that they are identified easily while tracking defects or identifying a software requirement at a later stage
 - **Repeatable and self-standing:** The test case should generate the same results every time no matter who test its
 - **Peer Review:** After creating test cases, get them reviewed by your colleagues. Your peers can uncover defects in your test case design
+#####
+**SoapUI:** Is an open-source web testing application for service-oriented architectures (SOA) and representational state transfers (REST). Allows testers to execute automated functional, regression, compliance, and load tests on different Web API. Supports Multiple Environments easy to switch between QA, DEV and Prod Environments.
+
 ##### Other Software
 Code Spell Checker
+
 
 ##### Sources
 [Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
