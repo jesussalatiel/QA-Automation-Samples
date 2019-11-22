@@ -1,4 +1,4 @@
-**Strum (5-9 persons)**
+**Scrum (5-9 persons)**
 Scrum is an agile project management methodology has three roles:
 - Product owner
 - Scrum master
@@ -123,10 +123,30 @@ TU02| Check Customer Login with invalid Data | 1. Go to site (www.example.com/si
 - **Peer Review:** After creating test cases, get them reviewed by your colleagues. Your peers can uncover defects in your test case design
 #####
 **SoapUI:** Is an open-source web testing application for service-oriented architectures (SOA) and representational state transfers (REST). Allows testers to execute automated functional, regression, compliance, and load tests on different Web API. Supports Multiple Environments easy to switch between QA, DEV and Prod Environments.
-
+#####
+**Jenkins:**
+Jenkins is an open source automation tool writen in Java. It is used to build and test your software projects continuosly making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build. Jenkins achieves Continuos Integration (CI) with the helpof plugis. Plugins allows the integration of Various DevOps stages. If you want to integrate a particular tool, you need to install the plugins for that tool. For example: Git, Maven 2 project, Amazon EC2, HTML publisher etc 
+#####
+**Advantages**
+- It is an open source tool with great community support
+- It is easy to install
+- It has 1000+ plugins to ease your work.
+- It is free of cost
+- It is built with Java and hence, it is portable to all the major platforms.
+#####
+**Continuous Integration (CI)**
+Continuous integration is a develpment practice in wich the developers are required to commit changes to the source code in a shared repository several times a day or more frequently. Every commit made in the repository is then nuilt. This allows the teams to detect the problems early. Apart from this. depending on the COntinuous Integration tool, there are several other functions like deploying the build application on the test server, providing the concerned teams with the build and test results etc.
+#####
+**Structured Query Language (SQL):**
+ Is actually the standard language for dealing with Relational DataBases. Some coomon realational database management systems that use QSL are: Oracle, Microsoft SQL Server. However, the standard SQL comands such as "Select", "Insert", "Update", "Delete", "Create" and "Drop" can be used to accomplish almost everything that one needs to do with a database.
+#####
+**Amazon EC2**
+Amazon Elastic Compute Cloud (Amazon EC2), allows users to rent virtual computers on wich to run their own computer applications. EC2 encourages scalable deployment of applications by providing a web service through wich user can boot an Amazon Machine Image (AMI) to configure a virtual machine, which Amazon calls an "instance", containing any software desired.
+#####
 ##### Other Software
 Code Spell Checker
 
 
 ##### Sources
 [Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
+[Jenkins](https://www.edureka.co/blog/what-is-jenkins/)
