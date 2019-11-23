@@ -185,7 +185,8 @@ Continuous integration is a develpment practice in wich the developers are requi
 5. Test Execution & Closure
 #####
 **Diference Between SDLC and STLC**
-Parameter| SDLC| STLC|
+#####
+**Parameter**| **SDLC**| **STLC**|
 --- | --- | --- |
 Origin| Development Life Cycle| Testing Life Cycle|  
 Objetive| The main object of SDLC life cycle is to complete sucessful development of the software including testing and other phases| The only objective of the STLC phase is testig|
