@@ -184,6 +184,12 @@ Continuous integration is a develpment practice in wich the developers are requi
 4. Test Environment Setup
 5. Test Execution & Closure
 #####
+**Test Execution:** Is the process of executing the code and comparing the excepted and actual results
+It is generate the following 
+1. Test Results and Reports
+2. Defects Reports
+3. Test Metrics
+#####
 **Diference Between SDLC and STLC**
 #####
 **Parameter**| **SDLC**| **STLC**|
@@ -221,3 +227,4 @@ Code Spell Checker
 [Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
 [Jenkins](https://www.edureka.co/blog/what-is-jenkins/)
 [Cucumber](https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/)
+[Software Testing Dictionary](https://www.tutorialspoint.com/software_testing_dictionary/test_execution.htm)
