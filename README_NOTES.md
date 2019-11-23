@@ -224,7 +224,7 @@ Code Spell Checker
 
 
 ##### Sources
-[Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
-[Jenkins](https://www.edureka.co/blog/what-is-jenkins/)
-[Cucumber](https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/)
-[Software Testing Dictionary](https://www.tutorialspoint.com/software_testing_dictionary/test_execution.htm)
+- [Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
+- [Jenkins](https://www.edureka.co/blog/what-is-jenkins/)
+- [Cucumber](https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/)
+- [Software Testing Dictionary](https://www.tutorialspoint.com/software_testing_dictionary/test_execution.htm)
