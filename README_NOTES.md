@@ -185,13 +185,13 @@ Continuous integration is a develpment practice in wich the developers are requi
 5. Test Execution & Closure
 #####
 **Diference Between SDLC and STLC**
-Parameter| SDLC| STLC
+Parameter| SDLC| STLC|
 --- | --- | --- |
-Origin| Development Life Cycle| Testing Life Cycle  
-Objetive| The main object of SDLC life cycle is to complete sucessful development of the software including testing and other phases| The only objective of the STLC phase is testig
-Requirement Gathering| In SDLC the business analyst gathers the requirements and create Development Plan| In STLC, the QA team analyze requeriments document like fuctional and no-functional documents and Create System Test Plan
-High & Low-Level Design| In SDLC, the develpment team creates the high and low-level design plans| In STLC, the test analyst create the integration Test Plan
-Coding| The real code is developed, and actual work takes place as per the design documents| The testing team prepares the test environment and executes them
+Origin| Development Life Cycle| Testing Life Cycle|  
+Objetive| The main object of SDLC life cycle is to complete sucessful development of the software including testing and other phases| The only objective of the STLC phase is testig|
+Requirement Gathering| In SDLC the business analyst gathers the requirements and create Development Plan| In STLC, the QA team analyze requeriments document like fuctional and no-functional documents and Create System Test Plan|
+High & Low-Level Design| In SDLC, the develpment team creates the high and low-level design plans| In STLC, the test analyst create the integration Test Plan|
+Coding| The real code is developed, and actual work takes place as per the design documents| The testing team prepares the test environment and executes them|
 Maintenance| SDLC phase also includes post-deṕloyment supports and updates| Testers, execute regression suits, usually automation scripts to check maintenance code deployed|
 #####
 **Regression Testing:** Is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features
