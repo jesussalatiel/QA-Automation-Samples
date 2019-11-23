@@ -1,3 +1,5 @@
+**Quality Assurance Enginner:** Also known as QA enginners, track the development process of a product from start to finish. They oversee production,  testing each part to ensure it meets company standards before moving to the next phase. The goal of QA enginners is to create safeguards for products to be market-ready and meet all government regulations before it is released to the public 
+
 **Scrum (5-9 persons)**
 Scrum is an agile project management methodology has three roles:
 - Product owner
@@ -20,7 +22,7 @@ Scrum has four ceremonies:
 **Quality Assurance:** A set of activities designed to ensure that the development and/or maintenance process is adequate to ensure a system will meet its objectives.
 #####
 
-**Report Defect:** Is a document that identifies and describes a defect detected by a tester. This document describes the following aspects for example: Defect title, Description, Environment, Software Version, ID Test Case, Used Script, Priority, Evidence (Screenshot) and Severity of the defect
+**Report Defect:** Is a document that identifies and describes a defect detected by a tester. This document describes the following aspects for example: Defect Title, Description, Environment, Software Version, ID Test Case, Used Script, Priority, Evidence (Screenshot) and Severity of the defect
 #####
 
 **Defects Types:**
@@ -31,12 +33,17 @@ Scrum has four ceremonies:
 
 #####
 
-- **Test Plan:** A document describing the scope, approach, resource, and schedule 
+- **Test Plan:** A document describing the scope, approach, resource, and schedule of intented testing activities
 - **Test Matrix:** A document showing the relationship between requirements and test cases
 - **Test Scenario:** Describe the functionality of a module.
 - **Test Case:** A set inputs, executions and preconditions and expected outcomes developed for a particular objective 
 - **Testing Types:** Functional, End to end, performance, regression, exploratory 
 - **SDLC:** Planning, Analysis, Design, Implementation, Execution and Completion 
+**Types of Manual Testing:** Black Box Testing, White Box Testing, Unit Testing, System Testing, Integration Testing and Acceptance Testing.
+- **Black Box:** Also known as Behavioral Testing, is a software testing method in which the internal structure/design/implementation of the item being tested is not known to the tester.
+- **White Box:** Is defined a the testting of a software solution's internal structure, design and coding. In this type of testing the coding is visible to the tester.
+- **Grey Box:** Is a technique to the the software product or application with partial knowledge of the internal workings of an application.
+
 #####
 **Selenium:** Selenium is a free automated testing suite for web applications across diffentes browsers and platforms 
 #####
@@ -59,6 +66,21 @@ Scrum has four ceremonies:
 - Status
 - Preconditions 
 - Priority
+#####
+**Status Type:**
+- Passed
+- Failed
+- No Execute
+- Blocked
+- In progress
+#####
+**Testing Environments**
+- LOCAL
+- DEV
+- QA
+- UAT
+- PAT (Pre-production)
+- Production
 #####
 **JIRA:** Is a tool, it’s used for a bug tracking, issue tracking, and project management related to software and mobile apps.
 In Jira you can create:
@@ -124,6 +146,14 @@ TU02| Check Customer Login with invalid Data | 1. Go to site (www.example.com/si
 #####
 **SoapUI:** Is an open-source web testing application for service-oriented architectures (SOA) and representational state transfers (REST). Allows testers to execute automated functional, regression, compliance, and load tests on different Web API. Supports Multiple Environments easy to switch between QA, DEV and Prod Environments.
 #####
+**HTTP Status Code:**
+- 1xx Informational
+- 2xx Success
+- 3xx Redirection
+- 4xx Client Error
+- 5xx Server Error
+#####
+**Appium:** Is an open source, cross-platform automation testing tool. It is used for automating test cases for native, hybrid, and web applications. The tool has a major focus on both Android and IOS apps and was only restricted to the mobile application testing domain.
 **Jenkins:**
 Jenkins is an open source automation tool writen in Java. It is used to build and test your software projects continuosly making it easier for developers to integrate changes to the project, and making it easier for users to obtain a fresh build. Jenkins achieves Continuos Integration (CI) with the helpof plugis. Plugins allows the integration of Various DevOps stages. If you want to integrate a particular tool, you need to install the plugins for that tool. For example: Git, Maven 2 project, Amazon EC2, HTML publisher etc 
 #####
@@ -134,8 +164,47 @@ Jenkins is an open source automation tool writen in Java. It is used to build an
 - It is free of cost
 - It is built with Java and hence, it is portable to all the major platforms.
 #####
-**Continuous Integration (CI)**
+**Cucumber:** Is a tool based on Behavior Driven Develpment (BDD) framework which is used to write acceptance test for the web application. It allows automation of functional validation in easily and understandble format to Bussines Analyst, Developers, Testers, etc. Cucumber can be used along with Selenium, Watir, and Capybara etc. Cucumber supports many other languages like PHP, Python, Net, Perl, etc. 
+#####
+**Continuous Integration (CI):**
 Continuous integration is a develpment practice in wich the developers are required to commit changes to the source code in a shared repository several times a day or more frequently. Every commit made in the repository is then nuilt. This allows the teams to detect the problems early. Apart from this. depending on the COntinuous Integration tool, there are several other functions like deploying the build application on the test server, providing the concerned teams with the build and test results etc.
+#####
+**Software Development Life Cycle (SDLC):** Defines all the standard phases which are involved during the software development process. SDLC life cycle is a process of developing software through a phased manner in the following order:
+1. Requeriments Gathering
+2. Design the software
+3. Build the Software
+4. Test
+5. Deployment
+6. Maintenance
+#####
+**Software Testing Life Cycle (STLC):** Is the process that is executed in a well-planned manner. In the STLC process, various activities are carried out to improve the quality of the product. However, STLC phases only deal with testing and detecting errors but not development iself. Software Test Life Cycle has the following stages:
+1. Requeriments Analysis
+2. Test Planning
+3. Test Deloppment 
+4. Test Environment Setup
+5. Test Execution & Closure
+#####
+**Diference Between SDLC and STLC**
+**Parameter**| **SDLC**| **STLC**|
+--- | --- | --- |
+Origin | Development Life Cycle | Testing Life Cycle  
+Objetive | The main object of SDLC life cycle is to complete sucessful development of the software including testing and other phases| The only objective of the STLC phase is testig
+Requirement Gathering | In SDLC the business analyst gathers the requirements and create Development Plan| In STLC, the QA team analyze requeriments document like fuctional and no-functional documents and Create System Test Plan
+High & Low-Level Design | In SDLC, the develpment team creates the high and low-level design plans| In STLC, the test analyst create the integration Test Plan
+Coding| The real code is developed, and actual work takes place as per the design documents| The testing team prepares the test environment and executes them
+Maintenance| SDLC phase also includes post-deṕloyment supports and updates| Testers, execute regression suits, usually automation scripts to check maintenance code deployed
+#####
+**Regression Testing:** Is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features
+#####
+**Defect Life Cicle:** Also known as a Bug Life Cycle, is a cycle of a defect from which it goes through covering the different states in its entire life.
+- Find
+- Report
+- Acknowledge
+- Fix
+- Verify 
+- Resolve
+#####
+**Defect:** A defect, in simple terms, is a flaw or an error in an application that is restricting the normal flow of an application by mismatching the expected behavior with the actual one. The defect occurs when any mistake is made by a developer during designing or building of an application and when this flaw is found by a tester.
 #####
 **Structured Query Language (SQL):**
  Is actually the standard language for dealing with Relational DataBases. Some coomon realational database management systems that use QSL are: Oracle, Microsoft SQL Server. However, the standard SQL comands such as "Select", "Insert", "Update", "Delete", "Create" and "Drop" can be used to accomplish almost everything that one needs to do with a database.
@@ -150,3 +219,4 @@ Code Spell Checker
 ##### Sources
 [Assertions](https://www.softwaretestingmaterial.com/testng-interview-questions/)
 [Jenkins](https://www.edureka.co/blog/what-is-jenkins/)
+[Cucumber](https://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/)
