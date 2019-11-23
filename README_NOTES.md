@@ -39,7 +39,7 @@ Scrum has four ceremonies:
 - **Test Case:** A set inputs, executions and preconditions and expected outcomes developed for a particular objective 
 - **Testing Types:** Functional, End to end, performance, regression, exploratory 
 - **SDLC:** Planning, Analysis, Design, Implementation, Execution and Completion 
-**Types of Manual Testing:** Black Box Testing, White Box Testing, Unit Testing, System Testing, Integration Testing and Acceptance Testing.
+- **Types of Manual Testing:** Black Box Testing, White Box Testing, Unit Testing, System Testing, Integration Testing and Acceptance Testing.
 - **Black Box:** Also known as Behavioral Testing, is a software testing method in which the internal structure/design/implementation of the item being tested is not known to the tester.
 - **White Box:** Is defined a the testting of a software solution's internal structure, design and coding. In this type of testing the coding is visible to the tester.
 - **Grey Box:** Is a technique to the the software product or application with partial knowledge of the internal workings of an application.
