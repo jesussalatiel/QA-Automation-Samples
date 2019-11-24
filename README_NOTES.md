@@ -219,6 +219,8 @@ Maintenance| SDLC phase also includes post-deṕloyment supports and updates| Te
 **Amazon EC2**
 Amazon Elastic Compute Cloud (Amazon EC2), allows users to rent virtual computers on wich to run their own computer applications. EC2 encourages scalable deployment of applications by providing a web service through wich user can boot an Amazon Machine Image (AMI) to configure a virtual machine, which Amazon calls an "instance", containing any software desired.
 #####
+**Design Patterns:** Software Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. Object-oriented design patterns typically show relationships and interactions between classes or objects. without specifying the final application classes or objects that are involved.
+#####
 ##### Other Software
 Code Spell Checker
 
