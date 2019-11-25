@@ -2,6 +2,8 @@
 
 **Page Factory:** Page factory is an inbuilt Page Object Model concept for Selenium WebDriver but it is very optimized. We follow the concept separation of Page Object Repository and Test Methods. Additionally, with the help of PageFactory class, we use annotations @FindBy to find WebElement.
 
-
+**Resources**
+- [FindElements](https://www.guru99.com/find-broken-links-selenium-webdriver.html)
+#####
 **Extra**
 Create tuto https://stackoverflow.com/questions/25787197/error-shown-when-creating-new-maven-project-in-eclipse
